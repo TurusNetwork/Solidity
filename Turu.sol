@@ -1,8 +1,7 @@
 // SPDX-License-Identifier: MIT
 
 /**
- * https://turu.network
- * Dev team email: dev@turu.network
+ *Submitted for verification at BscScan.com on 2021-04-11
 */
 
 pragma solidity =0.8.3;
@@ -20,7 +19,7 @@ contract TRS is Ownable {
     uint8 public constant decimals = 18;
 
     /// @notice Total number of tokens in circulation
-    uint public constant totalSupply = 5000000 * 10**18; // 5 mill TRS
+    uint public constant totalSupply = 50000000 * 10**18; // 50 mill TRS
 
     // @notice Total number of tokens that users in black list own
     // We need this for correct calculation of fees (to distribute black listed users share)
